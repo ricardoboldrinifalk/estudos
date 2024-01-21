@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div > p{
+        display: none ;     
+
+        }
+        div:hover > p{
+            display: block;
+            color: brown;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: blue;
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de hover</h1>
+    <h2>exemplo de hover</h2>
+    <p>passe o mause sobre o texto a bixo</p>
+    <div>
+        bem aqui
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, inventore sapiente quo quibusdam dolore sequi veritatis quas officiis obcaecati tenetur. Ipsam nihil temporibus harum dolor, provident nulla ipsum! Fugit, cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum minima iure placeat aut provident ipsum vel cupiditate hic officiis accusantium quam delectus perspiciatis asperiores, voluptatibus nemo! Magnam soluta odit maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nemo voluptatum et natus accusantium alias cumque, consequatur id aliquam expedita, optio repellendus repudiandae magni voluptatibus eaque laborum, quia nesciunt molestias!</p>
+    </div>
+</body>
+</html>

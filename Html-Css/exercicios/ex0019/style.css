@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+Em HTml é ID = Em CSS é # (um elemento)
+eM hrtml é CLASSE EM CSS é .  (mais elementos)
+*/
+
+body{
+    background-color: rgb(223, 249, 215);
+    font-family: sans-serif;
+}
+
+
+h1{
+color: aqua;
+}
+
+h1#principal{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
+
+
+h2{
+
+color: rgb(37, 77, 64);
+
+}
+.kk{
+    font-weight: bolder;
+    color: red;
+    background-color: black;
+}
+.sub-principal{
+    color: [blue ];
+    background-color: aqua;
+
+}
+
+.kkk{
+    color: aqua;
+
+}
