@@ -3,9 +3,11 @@
 
 
 
-:root{
+ :root{
     --fonte0:'Rubik Glitch Pop', system-ui;
     --fonte01: 'Cedarville Cursive', 'cursive';
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -40,17 +42,17 @@ a:hover{
     color: aliceblue;
 }
 
-main .imagem {
+main .imagem #img01 {
 background-color: gray;
 background-size: 30vh;
-
-
-}
-
-main > p{
+background-image: url(..imagens/background001.png);
 
 }
 
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
 
 footer{
     background-color: black;
