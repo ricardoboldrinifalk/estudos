@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap') ;
+
+
+
+:root{
+    --fonte0:'Rubik Glitch Pop', system-ui;
+    --fonte01: 'Cedarville Cursive', 'cursive';
 *{
     padding: 0px;
     margin: 0px;
@@ -39,8 +47,8 @@ background-size: 30vh;
 
 }
 
-.imagem{
-    background-image: url('.imagem/background001.jpg');
+main > p{
+
 }
 
 
