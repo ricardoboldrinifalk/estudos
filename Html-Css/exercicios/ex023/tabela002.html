@@ -6,6 +6,7 @@
     <title>Tabelas</title>
     <style>
         body{
+           
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -14,11 +15,15 @@
             width: 500px;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
          caption{
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightslategrey;
+            background-color: lightgray;
          }
 
          td,th{
@@ -29,9 +34,8 @@
         
 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(73, 73, 73);
             color: white;
-            background-color: gray;
         }
     </style>
 </head>
@@ -39,10 +43,10 @@
     <h1>Uso de tabelas Grandes</h1>
     <table>
         <caption>População de Unodades Federativas</caption>
-        <thead>
+        <thead >
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
           
@@ -51,24 +55,83 @@
         <tbody>
 
             <tr>
+                <td> Espírito Santo</td>
+                <td class="num">3 833 712</td>
+            </tr>
+
+            <tr>
+                <td> Amazonas</td>
+                <td class="num">3 483 985</td>
+            </tr>
+
+            <tr>
+                <td> Paraíba</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 775 805	</td>          
+          </tr>
+
+            <tr>
+                <td> Goiás</td>
+                <td class="num">7 056 495	</td>
+            </tr>
+
+        <tr>
+            <td> Santa Catarina</td>
+            <td>7 610 361</td>
+        </tr>
+
+            <tr>
+                <td> Pará</td>
+                <td class="num">8 121 025	</td>
+            </tr>
+
+            <tr>
+                <td> Ceará</td>
+                <td class="num">8 794 957	</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931	</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965	</td>
+            </tr>
+
+            <tr>
+                <td> Paraná</td>
+                <td class="num">11 444 380	</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626	</td>
+            </tr>
+
+            <tr>
                 <td> Rio de Janeiro</td>
-                <td>16 054 524</td>
+                <td class="num">16 054 524</td>
             </tr>
 
            <tr>
                 <td> Minas Gerais</td>
-                <td>44 411 238</td>
+                <td class="num">44 411 238</td>
             </tr>
       <tr>
         <td>Sâo Paulo</td>
-        <td>44 411 238</td>
+        <td class="num">44 411 238</td>
       </tr>
         
         </tbody>
 
        <tfoot>
        <tr>
-       <th>Total de Habitantes</th>
+       <th scope="row">Total de Habitantes</th>
        <th>00000</th>
       </td>
 
